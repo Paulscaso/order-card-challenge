@@ -1,0 +1,53 @@
+body{
+    background-color: hsl(225, 100%, 94%);
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    width: 40%;
+    height: 60%;
+    border-radius: 12px;
+    background-color: white ;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.payment-button{
+    border-radius: 12px;
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.cancel-button{
+    border: none;
+    color: gray;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.image{
+    width: 100%;
+    height: 100%;
+    
+}
+.sub-container{
+    display: flex;
+    justify-content: space-between;
+}
